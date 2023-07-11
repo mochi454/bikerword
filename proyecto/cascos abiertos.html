@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cascos abiertos.css">
+    <title>CASCOS ABIERTOS</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/casosh227solidbrillo.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT 227 Solid Negro</p>
+                    <span class="precio">Bs 400</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Sin-nombre-79.webp" alt="">
+                    </div>
+                    <p class="descripcion" id>Casco Abierto SHAFT 227 Cicuta</p>
+                    <span class="precio">Bs 350</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/0010_SHAFT-225-PILOT-SOLID.N.M.N7.LATERAL-1.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT 225 Pilot
+                    </p>
+                    <span class="precio">Bs 300</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/0009_SH121-SCRAMBLER.STRIPES.N.B.BL_.LATERAL.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT 121 Stripes Blanco</p>
+                    <span class="precio">Bs 350</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/casosh1212.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT 121 Solid Negro</p>
+                    <span class="precio">Bs 455</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/0008_SHAFT-225-PILOT.FIGHTER.CF_.M.NJ_.N.LATERAL.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT 225 Fighter</p>
+                    <span class="precio">Bs 450</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/0013_SHPRO-235DV.SOLID_.SL_.MT_.N7.LATERAL-3.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT PRO 235 Plata Vs rojo</p>
+                    <span class="precio">Bs 370</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/2-1.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Abierto SHAFT 235 Drink Amarillo</p>
+                    <span class="precio">Bs 500</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/casosh227solidbrillo.webp" alt="" id="img">
+                <h2 id="modelo"></h2>
+                <p id="descripcion">Casco Abierto SHAFT 227 Solid Negro</p>
+
+                <span class="precio" id="precio">Bs 400</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="cascos abiertos.js"></script>
+</body>
+</html>

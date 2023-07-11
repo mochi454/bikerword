@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cascos cross.css">
+    <title>CASCOS ABATIBLES</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/0001_SHPRO-MX08-ZTORM.BL_.RJ_.LATERAL.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Cross SHAFT PRO MX08 Ztorm</p>
+                    <span class="precio">Bs 400</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Sin-nombre-2023-01-06T171626.993.webp" alt="">
+                    </div>
+                    <p class="descripcion" id>Casco Multipropósito Shaft Mx 380 Trepid Rojo</p>
+                    <span class="precio">Bs 450</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/4-1.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Cross Shaft Mx 33 Raptor Trace Verde
+                    </p>
+                    <span class="precio">Bs 500</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/xecuro-818-kids.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Xecuro 818 Kids Arrow</p>
+                    <span class="precio">Bs 300</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/0000_SHPRO-MX08-SHEBA.AZ_.NAVY_.M.AM_.N.LATERAL.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Cross SHAFT PRO MX08 Sheba Azul</p>
+                    <span class="precio">Bs 455</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Sin-nombre-101.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Multipropósito Shaft MX 380 Trepid Az Navy</p>
+                    <span class="precio">Bs 400</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Sin-nombre-105.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Multipropósitos SHAFT MX 380 DV Endurance</p>
+                    <span class="precio">Bs 350</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="img/Sin-nombre-59-1.webp" alt="">
+                    </div>
+                    <p class="descripcion">Casco Multipropósito Shaft Mx 380 Trepid Negro</p>
+                    <span class="precio">Bs 400</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/0001_SHPRO-MX08-ZTORM.BL_.RJ_.LATERAL.webp" alt="" id="img">
+                <h2 id="modelo"></h2>
+                <p id="descripcion">Casco Cross SHAFT PRO MX08 Ztorm</p>
+
+                <span class="precio" id="precio">Bs 400</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="cascos cross.js"></script>
+</body>
+</html>
